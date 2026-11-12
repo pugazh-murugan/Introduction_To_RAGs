@@ -15,9 +15,9 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 
 # A small, cheap, high-quality OpenAI embedding model
-# openai_embeddings = OpenAIEmbeddings(model="text-embedding-3-small", api_key = api_key)
+openai_embeddings = OpenAIEmbeddings(model="text-embedding-3-small", api_key = api_key)
 
-# print("OpenAI embedding model is ready!")
+print("OpenAI embedding model is ready!")
 
 
 text = "I love programming in Python."
